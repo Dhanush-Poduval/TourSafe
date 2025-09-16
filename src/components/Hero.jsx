@@ -6,10 +6,10 @@ import { useState, useEffect, useRef } from "react";
 
 const Hero = () => {
   const slides = [
-    { img: robot, title: "AI Robot 1" },
-    { img: robot, title: "AI Robot 2" },
-    { img: robot, title: "AI Robot 3" },
-    { img: robot, title: "AI Robot 4" },
+    { img: "dashboard.png", title: "AI Robot 1" },
+    { img: "watch.jpeg", title: "AI Robot 2" },
+    { img: "map.png", title: "AI Robot 3" },
+    { img: "Heart.png", title: "AI Robot 4" },
   ];
 
   const loopSlides = [...slides, ...slides, ...slides];
@@ -54,22 +54,16 @@ const Hero = () => {
         {/* Hero Text */}
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Lorem ipsum dolor sit amet consectetur {" "} 
-            <span className="inline-block relative">
-              SIH
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="Curve"
-              />
+           
+            <span className=" relative text-[200px]">
+              Tour Safe 
+              
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cupiditate 
+             Beacuse Peace Of mind Travels with You 
           </p>
-          <Button href="/pricing" white>
+          <Button href="/signup" white>
             Get started
           </Button>
         </div>

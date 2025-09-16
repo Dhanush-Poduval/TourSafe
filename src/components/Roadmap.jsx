@@ -6,37 +6,39 @@ import { Gradient } from "./design/Roadmap";
 const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "SWAWY",
+    text: "SWAWY is a lightweight IoT-enabled wearable designed to ensure real-time safety for tourists. It acts as a digital guardian, continuously monitoring vital signs and location, and instantly triggering alerts during emergencies.",
     date: "May 2023",
     status: "done",
-    
+    imageUrl:'swawy.jpeg',
     colorful: true
   },
   {
     id: "2",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Emergency SOS",
+    text: "Your safety is just one press away.The Emergency SOS button on the SWAWY instantly alerts your emergency contacts, nearby authorities, and the central safety network.",
     date: "May 2023",
     status: "done",
-    
+    imageUrl:'sosalert.png',
     colorful: true
   },
   {
     id: "2",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "GEOLOCATION",
+    text: "Stay safe with real-time location tracking and intelligent geo-fencing technology. The SWAWY constantly monitors your position to ensure you’re always within safe travel zones.",
     date: "May 2023",
     status: "done",
+    imageUrl:'geolocation.png',
     
     colorful: true
   },
     {
     id: "3",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Digital Safety – Powered by Blockchain",
+    text: "Travel with confidence and trust.The Digital Safety  gives every tourist a secure blockchain-based ID that protects your identity and emergency details wherever you go.",
     date: "May 2023",
     status: "done",
+    imageUrl:'blockchain2.png',
     
     colorful: true
   },

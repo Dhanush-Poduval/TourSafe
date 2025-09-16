@@ -30,15 +30,16 @@ const Collaboration = () => {
           <Button>Try it now</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+        <div className="lg:ml-auto xl:w-full mt-4 flex flex-row mr-10">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto text-2xl">
             {aboutText}
           </p>
 
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100 mr-0">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
+                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full mr-15">
+                  <img src="TourSafe_Logo_Option_1-removebg-preview.png" alt="" />
                   
                 </div>
               </div>

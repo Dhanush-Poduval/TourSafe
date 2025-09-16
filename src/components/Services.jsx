@@ -16,7 +16,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Services"
-          text="Lorem epsium"
+          
         />
 
         <div className="relative">
